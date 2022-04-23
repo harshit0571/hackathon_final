@@ -219,3 +219,4 @@ var TxtType = function(el, toRotate, period) {
     }
 	
 /*== map js ==*/	
+var search=document.getElementById("search");

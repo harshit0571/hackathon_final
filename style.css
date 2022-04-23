@@ -2146,8 +2146,22 @@ select.mobile-device {
     position: fixed;
     bottom: 10px;
     left: 10px;
-    width: 30px;
-    height: 30px;
-    background-color: #448AFF;
-
+    width: 80px;
+    height: 80px;
+    background-image: url("address.png");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    animation: blink-animation 1s steps(5, start) infinite;
+    -webkit-animation: blink-animation 1s steps(5, start) infinite;
 }
+@keyframes blink-animation {
+    to {
+      visibility: hidden;
+    }
+}
+@-webkit-keyframes blink-animation {
+    to {
+      visibility: hidden;
+    }
+  }

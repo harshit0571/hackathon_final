@@ -1,0 +1,40 @@
+:root{
+    --blue:#0188DF ;
+    --black:#354046 ;
+    --green:rgba(21,127,218,0.9);
+}
+
+*{
+    font-family: 'Roboto', sans-serif;
+    box-sizing: border-box;
+    border: none;
+    outline: none;
+    text-decoration: none;
+    text-transform: capitalize;
+    font-weight: 400;
+    transition: all .2s linear;
+    scroll-behavior: smooth;
+    scroll-padding-top: 2rem;
+}
+
+*::selection{
+    background: var(--black);
+    color: #fff;
+}
+
+html{
+    font-size: 62.5%;
+    overflow-x: hidden; 
+    scroll-behavior: smooth;
+}
+
+body{
+    margin: 0px;
+    overflow-x: hidden;
+}
+
+.contain{
+    display: flex;
+    background-color: rgba(21,127,218,0.9);
+    justify-content: space-between;
+}

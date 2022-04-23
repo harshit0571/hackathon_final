@@ -1,0 +1,84 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+header{
+    height: 10vh;
+    width: 100%;
+    background-color: #157fda;
+    display: block;
+
+}
+.titleofpage{
+    color: black;
+}
+#display{
+    display: flex;
+    flex-direction: column;
+}
+.child{
+    height: 300px;
+    width: 100%;
+    margin-top: 10px;
+    background-color: #157fda;
+}
+#map{
+    width: 100vw;
+    height: 100vh;
+}
+#popup{
+    width:300px;
+    height: 250px;
+    background-color: white;
+    position: absolute;
+    left: -200%;
+    top: 20%;
+    border: 2px solid black;
+}
+#popup2{
+    width:300px;
+    height: 250px;
+    background-color: white;
+    position: absolute;
+    left: -200%;
+    top: 20%;
+    border: 2px solid black;
+}
+#popup3{
+    width:300px;
+    height: 250px;
+    background-color: white;
+    position: absolute;
+    left: -200%;
+    top: 20%;
+    border: 2px solid black;
+}
+#popup.dis{
+    left: 40%;
+}
+#popup2.dis{
+    left: 40%;
+}
+#popup3.dis{
+    left: 40%;
+}
+.node{
+    background-image: url("../images/about_03.jpg");
+    width: 250px;
+
+    background-color: #157fda;
+    position: relative;
+    height: 50%;
+}
+img{
+    width: 250px;
+    height: 150px;
+    margin: 0 auto;
+    border: 2px solid black;
+}
+a{
+    text-decoration: none;
+    color: #157fda;
+    font-size: 20px;
+}

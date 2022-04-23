@@ -219,4 +219,11 @@ var TxtType = function(el, toRotate, period) {
     }
 	
 /*== map js ==*/	
-var search=document.getElementById("search");
+
+    var search=document.getElementById("search");
+    console.log("d")
+    if(search.value=="doctor"){
+        window.location.href="map_.html";
+        console.log("l")
+    }
+}
